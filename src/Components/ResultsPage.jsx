@@ -65,7 +65,7 @@ export default function ResultsPage() {
                   </div>
                 )}
               </div>
-            </div>
+          </div>
           );
         })}
       </div>

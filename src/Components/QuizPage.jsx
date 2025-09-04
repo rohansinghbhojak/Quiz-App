@@ -99,7 +99,7 @@ export default function QuizPage() {
   // Start screen
   if (!started) {
     return (
-      <div className="quiz-container" style={{ ['--ring']: `0%` }}>
+      <div className="quiz-container" style={{ ['--ring']: `0%`, paddingRight: '40px' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', minHeight: '400px', textAlign: 'center' }}>
           <h2 style={{ marginBottom: 10 }}>Ready to start your quiz?</h2>
           <p style={{ color: '#445', opacity: 0.9, marginBottom: 20 }}>You have 5 minutes to complete 10 questions.</p>
